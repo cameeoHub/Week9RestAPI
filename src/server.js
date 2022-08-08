@@ -6,6 +6,6 @@ const app = express();
 app.use(express.json());
 app.use(userRouter);
 
-app.listen(5001, () => {
-    console.log("Listening on port 5001");
+app.listen(5000, () => {
+    console.log("Listening on port 5000");
 });
